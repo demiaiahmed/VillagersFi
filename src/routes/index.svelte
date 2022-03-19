@@ -4,15 +4,7 @@
         alert("Coming Soon Villager");
     }
 </script>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>VillagersFi</title>
-</head>
-<body>
+
     <div class="container">
         <div class="head">
             <div class="left-row">
@@ -101,7 +93,7 @@
             </div>
         </div>
     </div>
-</body>
+
 
 
 
@@ -111,8 +103,8 @@
 font-family: "VT323",monospace;
 
 }
-body{
-background: url("img/villagesfi-background.jpg");
+:global(body){
+background: url("/img/villagesfi-background.jpg");
 
 }
 .container{
@@ -244,7 +236,7 @@ width: 21rem;
 height: 20rem;
 padding-top: 4rem;
 padding-bottom: 5rem;
-background-image: url("img/mintbgNew.svg");
+background-image: url("/img/mintbgNew.svg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
