@@ -112,7 +112,7 @@ font-family: "VT323",monospace;
 
 }
 body{
-background: url("img/villagesfi-background.png");
+background: url("img/villagesfi-background.jpg");
 
 }
 .container{
@@ -244,7 +244,7 @@ width: 21rem;
 height: 20rem;
 padding-top: 4rem;
 padding-bottom: 5rem;
-background-image: url("img/mintbg.svg");
+background-image: url("img/mintbgNew.svg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
