@@ -1626,10 +1626,10 @@ var init_install_fetch = __esm({
           [PullSteps](readRequest) {
             const stream = this._controlledReadableByteStream;
             if (this._queueTotalSize > 0) {
-              const entry4 = this._queue.shift();
-              this._queueTotalSize -= entry4.byteLength;
+              const entry6 = this._queue.shift();
+              this._queueTotalSize -= entry6.byteLength;
               ReadableByteStreamControllerHandleQueueDrain(this);
-              const view = new Uint8Array(entry4.buffer, entry4.byteOffset, entry4.byteLength);
+              const view = new Uint8Array(entry6.buffer, entry6.byteOffset, entry6.byteLength);
               readRequest._chunkSteps(view);
               return;
             }
@@ -5464,7 +5464,7 @@ function create_ssr_component(fn) {
       return {
         html,
         css: {
-          code: Array.from(result.css).map((css5) => css5.code).join("\n"),
+          code: Array.from(result.css).map((css10) => css10.code).join("\n"),
           map: null
         },
         head: result.title + result.head
@@ -5686,6 +5686,167 @@ var init__3 = __esm({
     entry3 = "pages/index.svelte-989fd780.js";
     js3 = ["pages/index.svelte-989fd780.js", "chunks/vendor-1fe14be1.js"];
     css4 = ["assets/pages/index.svelte-f16b1722.css"];
+  }
+});
+
+// .svelte-kit/output/server/chunks/header-2b69a7b7.js
+var css5, Header;
+var init_header_2b69a7b7 = __esm({
+  ".svelte-kit/output/server/chunks/header-2b69a7b7.js"() {
+    init_index_1e54ea6c();
+    css5 = {
+      code: '.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{margin:0;padding:0;font-family:"VT323",monospace}.header.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{height:100px;width:100%;background-color:black;background-color:rgba(0, 0, 0, 0.2);position:absolute;top:0px}.logo.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{position:absolute;font-size:50px;top:20px;left:30px;margin-right:370px;color:white}.twitter.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{position:absolute;top:0;right:0;margin-right:300px}.icons.svelte-5nz6m0 a.svelte-5nz6m0 img.svelte-5nz6m0{width:50px;height:auto;margin-top:24px}.discord.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{position:absolute;top:0;right:0;margin-right:370px}.telegram.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{position:absolute;top:0;right:0;margin-right:440px}.telegram.svelte-5nz6m0 img.svelte-5nz6m0.svelte-5nz6m0{width:52.34px;height:auto;margin-top:24px}.medium.svelte-5nz6m0.svelte-5nz6m0.svelte-5nz6m0{position:absolute;top:0;right:0;margin-right:513px}.medium.svelte-5nz6m0 img.svelte-5nz6m0.svelte-5nz6m0{width:52.34px;height:auto;margin-top:24px}',
+      map: null
+    };
+    Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css5);
+      return `<div class="${"header svelte-5nz6m0"}"><a href="${"https://villages.finance"}" class="${"svelte-5nz6m0"}"><h1 class="${"logo svelte-5nz6m0"}">VILLAGESFI</h1></a>
+    <div class="${"icons svelte-5nz6m0"}"><a class="${"twitter svelte-5nz6m0"}" href="${"https://twitter.com/villagesfi"}" target="${"_blank"}"><img src="${"img/twitter.png"}" class="${"svelte-5nz6m0"}"></a>
+            <a class="${"discord svelte-5nz6m0"}" href="${"https://discord.gg/villages"}" target="${"_blank"}"><img src="${"img/discord.png"}" class="${"svelte-5nz6m0"}"></a></div>
+    <a class="${"telegram svelte-5nz6m0"}" href="${"https://t.me/villagesfi"}" target="${"_blank"}"><img src="${"img/telegram.png"}" class="${"svelte-5nz6m0"}"></a>
+    <a class="${"medium svelte-5nz6m0"}" href="${"https://medium.com/@villagesfi"}" target="${"_blank"}"><img src="${"img/medium.png"}" class="${"svelte-5nz6m0"}"></a>
+</div>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/entries/pages/mintOld.svelte.js
+var mintOld_svelte_exports = {};
+__export(mintOld_svelte_exports, {
+  default: () => MintOld
+});
+var css6, MintOld;
+var init_mintOld_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/mintOld.svelte.js"() {
+    init_index_1e54ea6c();
+    init_header_2b69a7b7();
+    css6 = {
+      code: '.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{font-family:"VT323",monospace}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/background.png);background-position:center}.container.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{min-width:370px}.head.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-top:-50px}h1.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{color:white;font-size:50px;font-weight:100;animation:neon 3s infinite;margin-top:150px;text-align:center}.nft.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{text-align:center}.nft.svelte-zcaetq img.svelte-zcaetq.svelte-zcaetq{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{padding-top:150px;display:flex;flex-direction:column;justify-content:center;align-items:center}.welcome.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{border:4px solid #000;border-radius:20px;margin-top:1rem;margin-left:10pt;margin-right:10pt;background-color:#000;padding:5%;display:flex;flex-direction:column;justify-content:center}.welcome.svelte-zcaetq h3.svelte-zcaetq.svelte-zcaetq{text-align:center;display:block;font-size:2em ;font-weight:bold;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;letter-spacing:0.025em}ul.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{list-style:none}li.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-bottom:1rem;font-size:1.4rem;font-weight:300;letter-spacing:00.025em}.two-btns.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.two-btns.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{height:4rem}.docs-btn.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.docs-btn.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{height:4rem}.right-row.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:40%;margin-bottom:3rem}.btn.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-zcaetq a.svelte-zcaetq.svelte-zcaetq{display:block}.btn.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{width:100%}.mintContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;place-content:center;margin-top:10rem}.mintNFT.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;justify-content:center;align-self:center;text-align:center;width:21rem;height:20rem;padding-top:4rem;padding-bottom:5rem;background:#11468F;background-repeat:no-repeat;background-size:cover;background-position:center center;border:solid 2px white;border-radius:30px}.mintNFT.svelte-zcaetq h1.svelte-zcaetq.svelte-zcaetq{margin-top:0px;margin-bottom:5rem;display:block;font-size:2em;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.information.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-left:13%;margin-right:13% ;margin-bottom:1%;text-align:center}.formContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-top:0.5rem}form.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:block;margin-top:0em }.quantityContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:row;justify-content:space-between;margin-left:15%;margin-right:15%;padding-bottom:0.5rem}label.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{cursor:default}#quantityText.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{text-align:center;width:3ch;font-family:craft;font-size:1.2rem;background-color:rgb(243, 226, 170);border-radius:5px;border:1px solid black}.quantitySlider.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{width:70%}.totalContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:row;-webkit-box-pack:justify;justify-content:space-between;margin-left:15%;margin-right:15%;margin-bottom:5%}.mintButtonContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%}.mintButtonImg.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{max-width:60%}',
+      map: null
+    };
+    MintOld = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let price = 0;
+      $$result.css.add(css6);
+      return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+    <div class="${"container svelte-zcaetq"}"><h1 class="${"svelte-zcaetq"}">Pre-Sale Mint is Live!</h1>
+        <div class="${"nft svelte-zcaetq"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-zcaetq"}"></div>
+
+        <div class="${"head svelte-zcaetq"}"><div class="${"left-row svelte-zcaetq"}"><div class="${"welcome svelte-zcaetq"}"><h3 style="${"margin-top: 1rem;"}" class="${"svelte-zcaetq"}">Welcome to VillagersFi!</h3>
+                    <ul class="${"svelte-zcaetq"}"><li class="${"svelte-zcaetq"}">\u2694\uFE0F 10,000 Gen1 Villagers minted with $GOLD</li>
+                        <li class="${"svelte-zcaetq"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                        <li class="${"svelte-zcaetq"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                        <li class="${"svelte-zcaetq"}">\u2694\uFE0F Stake up to 10 villagers at once in a level 1 village</li></ul></div>
+    
+                <div class="${"two-btns svelte-zcaetq"}"><a href="${"#"}" class="${"svelte-zcaetq"}"><img src="${"img/villagesfi-button.png"}" alt="${""}" class="${"svelte-zcaetq"}"></a>
+                    <a href="${"http://whitepaper.villages.finance/"}" class="${"svelte-zcaetq"}"><img src="${"img/whitepaper-button.png"}" alt="${""}" class="${"svelte-zcaetq"}"></a></div>
+                <div class="${"docs-btn svelte-zcaetq"}"><a href="${"https://medium.com/@villagesfi"}" class="${"svelte-zcaetq"}"><img src="${"img/docs-button.png"}" alt="${""}" class="${"svelte-zcaetq"}"></a></div></div>
+    
+            <div class="${"right-row svelte-zcaetq"}"><div class="${"btn svelte-zcaetq"}"><a href="${"#"}" class="${"svelte-zcaetq"}"><img src="${"img/connect-wallet-button.png"}" alt="${""}" class="${"svelte-zcaetq"}"></a></div>
+                <div class="${"mintContainer svelte-zcaetq"}"><div class="${"mintNFT svelte-zcaetq"}"><h1 class="${"svelte-zcaetq"}">Mint Villagers</h1>
+                        <div class="${"information svelte-zcaetq"}"><span style="${"font-size: 14pt;"}" class="${"svelte-zcaetq"}">Gen 0: 10000 / 10000</span><br class="${"svelte-zcaetq"}">
+                            <span style="${"font-size: 14pt;"}" class="${"svelte-zcaetq"}">Gen 1: ????? / 10000</span><br class="${"svelte-zcaetq"}"><br class="${"svelte-zcaetq"}">
+                            Minting Villagers Now Requires $ELIXIR<br class="${"svelte-zcaetq"}"><br class="${"svelte-zcaetq"}">
+                            You can mint up to 10 Villagers in each transaction.
+                        </div>
+
+                        <div class="${"formContainer svelte-zcaetq"}"><form class="${"svelte-zcaetq"}"><div class="${"quantityContainer svelte-zcaetq"}"><label for="${"quantityText"}" class="${"quantity svelte-zcaetq"}">Quantity:
+                                    </label>
+                                    <input id="${"quantityText"}" type="${"text"}" class="${"svelte-zcaetq"}"${add_attribute("value", price, 0)}></div>
+                                <div class="${"svelte-zcaetq"}"><label class="${"svelte-zcaetq"}"><input id="${"quantity"}" type="${"range"}" class="${"quantitySlider svelte-zcaetq"}" min="${"0"}" max="${"10"}"${add_attribute("value", price, 0)}></label></div>
+                                    <div class="${"totalContainer svelte-zcaetq"}"><span class="${"svelte-zcaetq"}">Total:</span>
+                                        <span class="${"AVAX svelte-zcaetq"}">${escape(price)} $ELIXIR</span></div>
+                                    <div class="${"mintButtonContainer svelte-zcaetq"}"><input type="${"image"}" class="${"mintButtonImg svelte-zcaetq"}" name="${"submit"}" alt="${"Submit Form"}" src="${"img/mint_unactive_cropped.63f4d78c25b22e39b045.webp"}"></div></form></div></div></div></div></div>
+
+    </div>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/nodes/3.js
+var __exports4 = {};
+__export(__exports4, {
+  css: () => css7,
+  entry: () => entry4,
+  js: () => js4,
+  module: () => mintOld_svelte_exports
+});
+var entry4, js4, css7;
+var init__4 = __esm({
+  ".svelte-kit/output/server/nodes/3.js"() {
+    init_mintOld_svelte();
+    entry4 = "pages/mintOld.svelte-2f45341a.js";
+    js4 = ["pages/mintOld.svelte-2f45341a.js", "chunks/vendor-1fe14be1.js", "chunks/header-fbc66805.js"];
+    css7 = ["assets/pages/mintOld.svelte-a575e9d4.css", "assets/header-fa6b5d47.css"];
+  }
+});
+
+// .svelte-kit/output/server/entries/pages/mint.svelte.js
+var mint_svelte_exports = {};
+__export(mint_svelte_exports, {
+  default: () => Mint
+});
+var css8, Mint;
+var init_mint_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/mint.svelte.js"() {
+    init_index_1e54ea6c();
+    init_header_2b69a7b7();
+    css8 = {
+      code: '.svelte-hrakih.svelte-hrakih.svelte-hrakih{font-family:"VT323",monospace;color:#fff}:root{--shadow-color:#FF9E9E;--shadow-color-light:white}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);background-position:center}.container.svelte-hrakih.svelte-hrakih.svelte-hrakih{min-width:370px}.head.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-bottom:50px}.left-row.svelte-hrakih h1.svelte-hrakih.svelte-hrakih{color:white;font-size:50px;font-weight:100;animation:svelte-hrakih-neon 3s infinite;text-align:center}.nft.svelte-hrakih.svelte-hrakih.svelte-hrakih{text-align:center}.nft.svelte-hrakih img.svelte-hrakih.svelte-hrakih{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:column;justify-content:center;align-items:center}.welcome.svelte-hrakih.svelte-hrakih.svelte-hrakih{border:4px solid #000;border-radius:20px;margin-top:1rem;margin-left:auto;margin-right:auto;background-color:#000;padding:25px;display:flex;flex-direction:column;justify-content:center;width:fit-content}.welcome.svelte-hrakih h3.svelte-hrakih.svelte-hrakih{text-align:center;display:block;font-size:2em ;font-weight:bold;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;letter-spacing:0.025em}ul.svelte-hrakih.svelte-hrakih.svelte-hrakih{list-style:none;text-align:center}li.svelte-hrakih.svelte-hrakih.svelte-hrakih{margin-bottom:1rem;font-size:1.4rem;font-weight:300;letter-spacing:00.025em}.two-btns.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.two-btns.svelte-hrakih a.svelte-hrakih img.svelte-hrakih{height:4rem}.docs-btn.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.docs-btn.svelte-hrakih a.svelte-hrakih img.svelte-hrakih{height:4rem}.right-row.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:40%;margin-bottom:3rem}.btn.svelte-hrakih.svelte-hrakih.svelte-hrakih{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-hrakih a.svelte-hrakih.svelte-hrakih{display:block}.btn.svelte-hrakih a.svelte-hrakih img.svelte-hrakih{width:100%}.mintContainer.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;place-content:center;margin-top:10rem}.mintNFT.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:column;justify-content:center;align-self:center;text-align:center;width:21rem;height:20rem;padding-top:4rem;padding-bottom:5rem;background:#11468F;background-repeat:no-repeat;background-size:cover;background-position:center center;border:solid 2px white;border-radius:30px}.mintNFT.svelte-hrakih h1.svelte-hrakih.svelte-hrakih{margin-top:0px;margin-bottom:5rem;display:block;font-size:2em;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.information.svelte-hrakih.svelte-hrakih.svelte-hrakih{margin-left:13%;margin-right:13% ;margin-bottom:1%;text-align:center}.formContainer.svelte-hrakih.svelte-hrakih.svelte-hrakih{margin-top:0.5rem}form.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:block;margin-top:0em }.quantityContainer.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:row;justify-content:space-between;margin-left:15%;margin-right:15%;padding-bottom:0.5rem}label.svelte-hrakih.svelte-hrakih.svelte-hrakih{cursor:default}#quantityText.svelte-hrakih.svelte-hrakih.svelte-hrakih{text-align:center;width:3ch;font-family:craft;font-size:1.2rem;background-color:rgb(243, 226, 170);border-radius:5px;border:1px solid black}.quantitySlider.svelte-hrakih.svelte-hrakih.svelte-hrakih{width:70%}.totalContainer.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:row;-webkit-box-pack:justify;justify-content:space-between;margin-left:15%;margin-right:15%;margin-bottom:5%}.mintButtonContainer.svelte-hrakih.svelte-hrakih.svelte-hrakih{display:flex;flex-direction:column;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%}.mintButtonImg.svelte-hrakih.svelte-hrakih.svelte-hrakih{max-width:60%}@media only screen and (max-width:1100px){.left-row.svelte-hrakih.svelte-hrakih.svelte-hrakih{padding-top:150px}.head.svelte-hrakih.svelte-hrakih.svelte-hrakih{flex-flow:column wrap}.right-row.svelte-hrakih.svelte-hrakih.svelte-hrakih{margin-left:auto;margin-right:auto}}@keyframes svelte-hrakih-neon{0%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}50%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),\n      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color)}100%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}}',
+      map: null
+    };
+    Mint = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let price = 0;
+      $$result.css.add(css8);
+      return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+    <div class="${"container svelte-hrakih"}"><div class="${"head svelte-hrakih"}"><div class="${"left-row svelte-hrakih"}"><h1 class="${"svelte-hrakih"}">Pre-Sale Mint is Live!</h1>
+                <div class="${"nft svelte-hrakih"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-hrakih"}"></div></div>
+    
+            <div class="${"right-row svelte-hrakih"}"><div class="${"btn svelte-hrakih"}"><a href="${"#"}" class="${"svelte-hrakih"}"><img src="${"img/connect-wallet-button.png"}" alt="${""}" class="${"svelte-hrakih"}"></a></div>
+                <div class="${"mintContainer svelte-hrakih"}"><div class="${"mintNFT svelte-hrakih"}"><h1 class="${"svelte-hrakih"}">Mint Villagers</h1>
+                        <div class="${"information svelte-hrakih"}"><span style="${"font-size: 14pt;"}" class="${"svelte-hrakih"}">Gen 0: 10000 / 10000</span><br class="${"svelte-hrakih"}">
+                            <span style="${"font-size: 14pt;"}" class="${"svelte-hrakih"}">Gen 1: ????? / 10000</span><br class="${"svelte-hrakih"}"><br class="${"svelte-hrakih"}">
+                            Minting Villagers Now Requires $ELIXIR<br class="${"svelte-hrakih"}"><br class="${"svelte-hrakih"}">
+                            You can mint up to 10 Villagers in each transaction.
+                        </div>
+
+                        <div class="${"formContainer svelte-hrakih"}"><form class="${"svelte-hrakih"}"><div class="${"quantityContainer svelte-hrakih"}"><label for="${"quantityText"}" class="${"quantity svelte-hrakih"}">Quantity:
+                                    </label>
+                                    <input id="${"quantityText"}" type="${"text"}" class="${"svelte-hrakih"}"${add_attribute("value", price, 0)}></div>
+                                <div class="${"svelte-hrakih"}"><label class="${"svelte-hrakih"}"><input id="${"quantity"}" type="${"range"}" class="${"quantitySlider svelte-hrakih"}" min="${"0"}" max="${"10"}"${add_attribute("value", price, 0)}></label></div>
+                                    <div class="${"totalContainer svelte-hrakih"}"><span class="${"svelte-hrakih"}">Total:</span>
+                                        <span class="${"AVAX svelte-hrakih"}">${escape(price)} $ELIXIR</span></div>
+                                    <div class="${"mintButtonContainer svelte-hrakih"}"><input type="${"image"}" class="${"mintButtonImg svelte-hrakih"}" name="${"submit"}" alt="${"Submit Form"}" src="${"img/mint_unactive_cropped.63f4d78c25b22e39b045.webp"}"></div></form></div></div></div></div></div>
+            
+        <div class="${"welcome svelte-hrakih"}"><h3 style="${"margin-top: 1rem;"}" class="${"svelte-hrakih"}">Welcome to VillagersFi!</h3>
+            <ul class="${"svelte-hrakih"}"><li class="${"svelte-hrakih"}">\u2694\uFE0F 10,000 Gen1 Villagers minted with $GOLD</li>
+                <li class="${"svelte-hrakih"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                <li class="${"svelte-hrakih"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                <li class="${"svelte-hrakih"}">\u2694\uFE0F Stake up to 10 villagers at once in a level 1 village</li></ul></div>
+
+        <div class="${"two-btns svelte-hrakih"}"><a href="${"#"}" class="${"svelte-hrakih"}"><img src="${"img/villagesfi-button.png"}" alt="${""}" class="${"svelte-hrakih"}"></a>
+            <a href="${"http://whitepaper.villages.finance/"}" class="${"svelte-hrakih"}"><img src="${"img/whitepaper-button.png"}" alt="${""}" class="${"svelte-hrakih"}"></a></div>
+        <div class="${"docs-btn svelte-hrakih"}"><a href="${"https://medium.com/@villagesfi"}" class="${"svelte-hrakih"}"><img src="${"img/docs-button.png"}" alt="${""}" class="${"svelte-hrakih"}"></a></div>
+
+    </div>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/nodes/4.js
+var __exports5 = {};
+__export(__exports5, {
+  css: () => css9,
+  entry: () => entry5,
+  js: () => js5,
+  module: () => mint_svelte_exports
+});
+var entry5, js5, css9;
+var init__5 = __esm({
+  ".svelte-kit/output/server/nodes/4.js"() {
+    init_mint_svelte();
+    entry5 = "pages/mint.svelte-10518014.js";
+    js5 = ["pages/mint.svelte-10518014.js", "chunks/vendor-1fe14be1.js", "chunks/header-fbc66805.js"];
+    css9 = ["assets/pages/mint.svelte-cd6d9529.css", "assets/header-fa6b5d47.css"];
   }
 });
 
@@ -6025,12 +6186,12 @@ function devalue(value) {
   }
   walk(value);
   var names = /* @__PURE__ */ new Map();
-  Array.from(counts).filter(function(entry4) {
-    return entry4[1] > 1;
+  Array.from(counts).filter(function(entry6) {
+    return entry6[1] > 1;
   }).sort(function(a, b) {
     return b[1] - a[1];
-  }).forEach(function(entry4, i2) {
-    names.set(entry4[0], getName(i2));
+  }).forEach(function(entry6, i2) {
+    names.set(entry6[0], getName(i2));
   });
   function stringify(thing) {
     if (names.has(thing)) {
@@ -7764,14 +7925,16 @@ var Server = class {
 // .svelte-kit/vercel-tmp/manifest.js
 var manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png", "img/academy.png", "img/cannon-1.png", "img/cannon-2-upgrade.png", "img/cannon-2.png", "img/cannon-3-upgrade.png", "img/cannon-3.png", "img/connect-wallet-button.png", "img/discord.png", "img/docs-button.png", "img/elexir-extractor-1.png", "img/elexir-extractor-2-upgrade.png", "img/elexir-extractor-2.png", "img/elexir-extractor-3-upgrade.png", "img/elexir-extractor-3.png", "img/favicon.svg", "img/gold-mine.png", "img/golden-shoes-upgrade.png", "img/logo.png", "img/mint_unactive_cropped.63f4d78c25b22e39b045.webp", "img/mintbg.svg", "img/mintbgNew.svg", "img/paper-bottom.png", "img/paper-middle.png", "img/paper-money-upgrade.png", "img/paper-top.png", "img/plexiglass-upgrade.png", "img/tower-1.png", "img/tower-2-upgrade.png", "img/tower-2.png", "img/tower-3-upgrade.png", "img/tower-3.png", "img/townhall-1.png", "img/townhall-2-upgrade.png", "img/townhall-2.png", "img/townhall-3-upgrade.png", "img/townhall-3.png", "img/twitter.png", "img/villagesfi-background.jpg", "img/villagesfi-background.png", "img/villagesfi-button.png", "img/whitepaper-button.png"]),
-  mimeTypes: { ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".jpg": "image/jpeg" },
+  assets: /* @__PURE__ */ new Set(["favicon.png", "img/academy.png", "img/background.png", "img/cannon-1.png", "img/cannon-2-upgrade.png", "img/cannon-2.png", "img/cannon-3-upgrade.png", "img/cannon-3.png", "img/connect-wallet-button.png", "img/discord.png", "img/docs-button.png", "img/elexir-extractor-1.png", "img/elexir-extractor-2-upgrade.png", "img/elexir-extractor-2.png", "img/elexir-extractor-3-upgrade.png", "img/elexir-extractor-3.png", "img/favicon.svg", "img/gold-mine.png", "img/golden-shoes-upgrade.png", "img/logo.png", "img/medium.png", "img/mint_unactive_cropped.63f4d78c25b22e39b045.webp", "img/mintbg.svg", "img/mintbgNew.svg", "img/nft.gif", "img/paper-bottom.png", "img/paper-middle.png", "img/paper-money-upgrade.png", "img/paper-top.png", "img/plexiglass-upgrade.png", "img/screenshot.png", "img/telegram.png", "img/tower-1.png", "img/tower-2-upgrade.png", "img/tower-2.png", "img/tower-3-upgrade.png", "img/tower-3.png", "img/townhall-1.png", "img/townhall-2-upgrade.png", "img/townhall-2.png", "img/townhall-3-upgrade.png", "img/townhall-3.png", "img/twitter.png", "img/villagesfi-background.jpg", "img/villagesfi-background.png", "img/villagesfi-button.png", "img/whitepaper-button.png"]),
+  mimeTypes: { ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".gif": "image/gif", ".jpg": "image/jpeg" },
   _: {
-    entry: { "file": "start-e3ca4fc7.js", "js": ["start-e3ca4fc7.js", "chunks/vendor-1fe14be1.js"], "css": [] },
+    entry: { "file": "start-e91080eb.js", "js": ["start-e91080eb.js", "chunks/vendor-1fe14be1.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
-      () => Promise.resolve().then(() => (init__3(), __exports3))
+      () => Promise.resolve().then(() => (init__3(), __exports3)),
+      () => Promise.resolve().then(() => (init__4(), __exports4)),
+      () => Promise.resolve().then(() => (init__5(), __exports5))
     ],
     routes: [
       {
@@ -7783,6 +7946,28 @@ var manifest = {
         path: "/",
         shadow: null,
         a: [0, 2],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "mintOld",
+        pattern: /^\/mintOld\/?$/,
+        names: [],
+        types: [],
+        path: "/mintOld",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
+        id: "mint",
+        pattern: /^\/mint\/?$/,
+        names: [],
+        types: [],
+        path: "/mint",
+        shadow: null,
+        a: [0, 4],
         b: [1]
       }
     ],
