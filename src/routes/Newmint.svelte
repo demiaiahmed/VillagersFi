@@ -9,7 +9,7 @@
     <Header />
     <div class="container">
         
-        <h1 class="bigTitle">Pre-Sale Mint is Live!</h1>
+        <h1 class="bigTitle">SEED ROUND IS NOW LIVE</h1>
         <div class="head">
             <div class="left-row">
                 
@@ -26,35 +26,19 @@
                 </div>
                 <div class="mintContainer">
                     <div class="mintNFT">
-                        <h1>Mint Villagers</h1>
-                        <div class="information">
-                            <span style="font-size: 14pt;">Gen 0: 10000 / 10000</span><br>
-                            <span style="font-size: 14pt;">Gen 1: ????? / 10000</span><br><br>
-                            Minting Villagers Now Requires $ELIXIR<br><br>
-                            You can mint up to 10 Villagers in each transaction.
-                        </div>
-
-                        <div class="formContainer">
-                            <form>
-                                <div class="quantityContainer">
-                                    <label for="quantityText" class="quantity">
-                                        Quantity:
-                                    </label>
-                                    <input id="quantityText" type="text" bind:value={price}>
-                                </div>
-                                <div>
-                                    <label>
-                                        <input id="quantity" type="range" class="quantitySlider"  min="0" max="10" bind:value={price}></label>
-                                    </div>
-                                    <div class="totalContainer">
-                                        <span>Total:</span>
-                                        <span class="AVAX">{price} $ELIXIR</span>
-                                    </div>
-                                    <div class="mintButtonContainer">
-                                        <input type="image" class="mintButtonImg" name="submit" alt="Submit Form" src="img/mint_unactive_cropped.63f4d78c25b22e39b045.webp" on:click={alertMsg}>
-                                    </div>
-                                </form>
-                        </div>
+                        <h1>SEED ROUND MINT</h1>
+                        <p>⚔️ 95 Exclusive villagers with tools for sale</p>
+					<p>⚔️ Mint 10 villagers to be eligible for a free villager drop</p>
+					<p>⚔️ Each Villager will produce $ESSENCE at 5% Daily ROI</p>
+					<p>Quantity:</p>
+					<div class="slidebox">
+						<div class="slider">
+							<input class="slide" type="range" min="1" max="10" value="1">
+						</div>
+					</div>
+					<div class="boxed">
+						<a href="whitepaper.html"><img src="img/mint.png"></a>
+					</div>
                     </div>
                 </div>
                 <div class="icons">
@@ -67,26 +51,7 @@
             </div>
         </div>
             
-        <div class="welcome">
-            <h3 style="margin-top: 1rem;">Welcome to VillagersFi!</h3>
-            <ul>
-                <li>⚔️ 10,000 Gen1 Villagers minted with $GOLD</li>
-                <li>⚔️ 5% Chance to Mint a special villager</li>
-                <li>⚔️ 5% Chance to Mint a special villager</li>
-                <li>⚔️ Stake up to 10 villagers at once in a level 1 village</li>
-            </ul>
-
-        </div>
-
-        <div class="two-btns">
-            <a href="#"><img src="img/villagesfi-button.png" alt="" ></a>
-            <a href="http://whitepaper.villages.finance/"><img src="img/whitepaper-button.png" alt="" ></a>
-        </div>
-        <div class="docs-btn">
-            <a href="https://medium.com/@villagesfi">
-                <img src="img/docs-button.png" alt="" >
-            </a>
-        </div>
+        
 
     </div>
 
@@ -128,9 +93,9 @@ margin-top: -50px;
 .container .bigTitle{
     margin-top: 150px;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
-    animation: neon 3s infinite;
+	text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #00C8FF, 0 0 30px #00C8FF, 0 0 40px #00C8FF;
 
     text-align: center;
 }
@@ -234,35 +199,58 @@ display: block;
 display: flex;
 place-content: center;
 margin-top: 10rem;
+width:440px;
 }
 .mintNFT{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-self: center;
-text-align: center;
-width: 21rem;
-height: 20rem;
-padding-top: 4rem;
-padding-bottom: 5rem;
-background: #11468F;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-border: solid 2px white;
-border-radius: 30px;
+
+background-color: rgba(0, 0, 0, 0.2);
+padding: 35px;
+padding-bottom: 15px;
+padding-top: 30px;
+border-radius: 15px;
 }
 .mintNFT h1{
+text-align: center;
 margin-top: 0px;
 margin-bottom: 5rem;
 display: block;
-font-size: 2em;
+font-size: 40px;
 margin-block-start: 0.67em;
 margin-block-end: 0.67em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 font-weight: bold;
 
+}
+.mintNFT p{
+    font-size: 20px;
+    color: white;
+}
+.slidebox{
+    width: 100%;
+    margin-top: 20px;
+}
+.slider{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.slide{
+    width:360px;
+}
+.boxed{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.box img{
+    width: 170px;
+    height: auto;
 }
 .information{
 margin-left: 13%;
