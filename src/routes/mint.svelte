@@ -9,10 +9,10 @@
     <Header />
     <div class="container">
         
-
+        <h1 class="bigTitle">Pre-Sale Mint is Live!</h1>
         <div class="head">
             <div class="left-row">
-                <h1>Pre-Sale Mint is Live!</h1>
+                
                 <div class="nft">
                     <img src="img/nft.gif" alt="">
                 </div>
@@ -57,7 +57,13 @@
                         </div>
                     </div>
                 </div>
-    
+                <div class="icons">
+                    <a class="twitter" href="https://twitter.com/villagesfi" target="_blank"><img src="img/twitter.png"></a>
+                    <a class="discord" href="https://discord.gg/villages" target="_blank"><img src="img/discord.png"></a>
+                    <a class="telegram" href="https://t.me/villagesfi" target="_blank"><img src="img/telegram.png"></a>
+                    <a class="medium" href="https://medium.com/@villagesfi" target="_blank"><img src="img/medium.png"></a>
+        
+                </div>
             </div>
         </div>
             
@@ -116,8 +122,11 @@ justify-content: center;
 width: 100%;
 color: #fff;
 margin-bottom: 50px;
+gap : 150px;
+margin-top: -50px;
 }
-.left-row h1{
+.container .bigTitle{
+    margin-top: 150px;
     color: white;
     font-size: 50px;
     font-weight: 100;
@@ -195,6 +204,7 @@ margin-top: 2rem;
 max-width: 100vw;
 gap: 1rem;
 flex-wrap: wrap;
+padding-bottom: 100px;
 }
 .docs-btn a img{
 height: 4rem;
@@ -206,7 +216,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: flex-start;
-width: 40%;
 margin-bottom: 3rem;
 }
 .btn{
@@ -313,17 +322,38 @@ width: 100%;
 .mintButtonImg {
 max-width: 60%;
 }
+.icons{
+    visibility: hidden;
+}
+.icons a img{
+        width: 50px;
+    height: auto;
+    margin-top: 24px;
+    }
 
-@media only screen and (max-width:1100px){
+@media only screen and (max-width:1023px){
     .left-row{
-        padding-top: 150px;
+        padding-top: 50px;
     }
     .head{
         flex-flow:column wrap;
+        gap:0;
     }
     .right-row{
         margin-left: auto;
         margin-right: auto;
+    }
+    .right-row{
+        order:-1;
+    }
+    .btn{
+        width:200px;
+        
+    }
+    @media only screen and (max-width:619px) {
+        .icons{
+            visibility: visible;
+        }
     }
 }
 @keyframes neon {

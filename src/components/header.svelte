@@ -3,14 +3,15 @@
     <div class="icons">
             <a class="twitter" href="https://twitter.com/villagesfi" target="_blank"><img src="img/twitter.png"></a>
             <a class="discord" href="https://discord.gg/villages" target="_blank"><img src="img/discord.png"></a>
+            <a class="telegram" href="https://t.me/villagesfi" target="_blank"><img src="img/telegram.png"></a>
+            <a class="medium" href="https://medium.com/@villagesfi" target="_blank"><img src="img/medium.png"></a>
 
         </div>
-    <a class="telegram" href="https://t.me/villagesfi" target="_blank"><img src="img/telegram.png"></a>
-    <a class="medium" href="https://medium.com/@villagesfi" target="_blank"><img src="img/medium.png"></a>
+   
 </div>
 
 <style>
-        *{
+*{
 margin: 0;
 padding: 0;
 font-family: "VT323",monospace;
@@ -32,43 +33,27 @@ font-family: "VT323",monospace;
     margin-right: 370px;
     color: white;
     }
-    .twitter{
-        position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 300px;
-    }
+
     .icons a img{
         width: 50px;
     height: auto;
     margin-top: 24px;
     }
-    .discord{
-        position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 370px;
+    .icons{
+        text-align: right;
+        margin-right: 280px;
     }
-    .telegram{
-        position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 440px;
+    @media only screen and (max-width:1023px){
+        .logo{
+            font-size: 35px;
+        }
+        .icons a img{
+            width: 35px;
+        }
     }
-    .telegram img{
-        width: 52.34px;
-    height: auto;
-    margin-top: 24px;
-    }
-    .medium{
-        position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 513px;
-    }
-    .medium img{
-        width: 52.34px;
-    height: auto;
-    margin-top: 24px;
+    @media only screen and (max-width:619px){
+        .icons{
+            visibility: hidden;
+        }
     }
 </style>
