@@ -1626,10 +1626,10 @@ var init_install_fetch = __esm({
           [PullSteps](readRequest) {
             const stream = this._controlledReadableByteStream;
             if (this._queueTotalSize > 0) {
-              const entry6 = this._queue.shift();
-              this._queueTotalSize -= entry6.byteLength;
+              const entry7 = this._queue.shift();
+              this._queueTotalSize -= entry7.byteLength;
               ReadableByteStreamControllerHandleQueueDrain(this);
-              const view = new Uint8Array(entry6.buffer, entry6.byteOffset, entry6.byteLength);
+              const view = new Uint8Array(entry7.buffer, entry7.byteOffset, entry7.byteLength);
               readRequest._chunkSteps(view);
               return;
             }
@@ -5464,7 +5464,7 @@ function create_ssr_component(fn) {
       return {
         html,
         css: {
-          code: Array.from(result.css).map((css10) => css10.code).join("\n"),
+          code: Array.from(result.css).map((css12) => css12.code).join("\n"),
           map: null
         },
         head: result.title + result.head
@@ -5711,23 +5711,81 @@ var init_header_bcb0d97d = __esm({
   }
 });
 
+// .svelte-kit/output/server/entries/pages/Newmint.svelte.js
+var Newmint_svelte_exports = {};
+__export(Newmint_svelte_exports, {
+  default: () => Newmint
+});
+var css6, Newmint;
+var init_Newmint_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/Newmint.svelte.js"() {
+    init_index_1e54ea6c();
+    init_header_bcb0d97d();
+    css6 = {
+      code: '.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{font-family:"VT323",monospace;color:#fff}:root{--shadow-color:#FF9E9E;--shadow-color-light:white}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);background-position:center}.container.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{min-width:370px}.head.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-bottom:50px;gap:150px;margin-top:-50px}.container.svelte-1bjz0gu .bigTitle.svelte-1bjz0gu.svelte-1bjz0gu{margin-top:150px;color:white;font-size:60px;font-weight:100;text-shadow:0 0 1px #fff, 0 0 10px #fff, 0 0 20px #00C8FF, 0 0 30px #00C8FF, 0 0 40px #00C8FF;text-align:center}.nft.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{text-align:center}.nft.svelte-1bjz0gu img.svelte-1bjz0gu.svelte-1bjz0gu{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{display:flex;flex-direction:column;justify-content:center;align-items:center}.two-btns a.svelte-1bjz0gu img.svelte-1bjz0gu.svelte-1bjz0gu{height:4rem}.docs-btn a.svelte-1bjz0gu img.svelte-1bjz0gu.svelte-1bjz0gu{height:4rem}.right-row.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;margin-bottom:3rem}.btn.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-1bjz0gu a.svelte-1bjz0gu.svelte-1bjz0gu{display:block}.btn.svelte-1bjz0gu a.svelte-1bjz0gu img.svelte-1bjz0gu{width:100%}.mintContainer.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{display:flex;place-content:center;margin-top:10rem;width:440px}.mintNFT.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{display:flex;flex-direction:column;justify-content:center;align-self:center;background-color:rgba(0, 0, 0, 0.2);padding:35px;padding-bottom:15px;padding-top:30px;border-radius:15px}.mintNFT.svelte-1bjz0gu h1.svelte-1bjz0gu.svelte-1bjz0gu{text-align:center;margin-top:0px;margin-bottom:5rem;display:block;font-size:40px;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.mintNFT.svelte-1bjz0gu p.svelte-1bjz0gu.svelte-1bjz0gu{font-size:20px;color:white}.slidebox.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{width:100%;margin-top:20px}.slider.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{padding-top:10px;padding-bottom:30px}.slide.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{width:360px}.boxed.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{width:100%;justify-content:center;align-items:center;align-content:center;text-align:center}.icons.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{visibility:hidden}.icons.svelte-1bjz0gu a.svelte-1bjz0gu img.svelte-1bjz0gu{width:50px;height:auto;margin-top:24px}@media only screen and (max-width:1023px){.left-row.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{padding-top:50px}.head.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{flex-flow:column wrap;gap:0}.right-row.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{margin-left:auto;margin-right:auto}.right-row.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{order:-1}.btn.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{width:200px}@media only screen and (max-width:619px){.icons.svelte-1bjz0gu.svelte-1bjz0gu.svelte-1bjz0gu{visibility:visible}}}@keyframes svelte-1bjz0gu-neon{0%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}50%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),\n      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color)}100%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}}',
+      map: null
+    };
+    Newmint = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css6);
+      return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+    <div class="${"container svelte-1bjz0gu"}"><h1 class="${"bigTitle svelte-1bjz0gu"}">SEED ROUND IS NOW LIVE</h1>
+        <div class="${"head svelte-1bjz0gu"}"><div class="${"left-row svelte-1bjz0gu"}"><div class="${"nft svelte-1bjz0gu"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-1bjz0gu"}"></div></div>
+    
+            <div class="${"right-row svelte-1bjz0gu"}"><div class="${"btn svelte-1bjz0gu"}"><a href="${"#"}" class="${"svelte-1bjz0gu"}"><img src="${"img/connect-wallet-button.png"}" alt="${""}" class="${"svelte-1bjz0gu"}"></a></div>
+                <div class="${"mintContainer svelte-1bjz0gu"}"><div class="${"mintNFT svelte-1bjz0gu"}"><h1 class="${"svelte-1bjz0gu"}">SEED ROUND MINT</h1>
+                        <p class="${"svelte-1bjz0gu"}">\u2694\uFE0F 95 Exclusive villagers with tools for sale</p>
+					<p class="${"svelte-1bjz0gu"}">\u2694\uFE0F Mint 10 villagers to be eligible for a free villager drop</p>
+					<p class="${"svelte-1bjz0gu"}">\u2694\uFE0F Each Villager will produce $ESSENCE at 5% Daily ROI</p>
+					<p class="${"svelte-1bjz0gu"}">Quantity:</p>
+					<div class="${"slidebox svelte-1bjz0gu"}"><div class="${"slider svelte-1bjz0gu"}"><input class="${"slide svelte-1bjz0gu"}" type="${"range"}" min="${"1"}" max="${"10"}" value="${"1"}"></div></div>
+					<div class="${"boxed svelte-1bjz0gu"}"><a href="${"whitepaper.html"}" class="${"svelte-1bjz0gu"}"><img src="${"img/mint.png"}" class="${"svelte-1bjz0gu"}"></a></div></div></div>
+                <div class="${"icons svelte-1bjz0gu"}"><a class="${"twitter svelte-1bjz0gu"}" href="${"https://twitter.com/villagesfi"}" target="${"_blank"}"><img src="${"img/twitter.png"}" class="${"svelte-1bjz0gu"}"></a>
+                    <a class="${"discord svelte-1bjz0gu"}" href="${"https://discord.gg/villages"}" target="${"_blank"}"><img src="${"img/discord.png"}" class="${"svelte-1bjz0gu"}"></a>
+                    <a class="${"telegram svelte-1bjz0gu"}" href="${"https://t.me/villagesfi"}" target="${"_blank"}"><img src="${"img/telegram.png"}" class="${"svelte-1bjz0gu"}"></a>
+                    <a class="${"medium svelte-1bjz0gu"}" href="${"https://medium.com/@villagesfi"}" target="${"_blank"}"><img src="${"img/medium.png"}" class="${"svelte-1bjz0gu"}"></a></div></div></div>
+            
+        
+
+    </div>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/nodes/3.js
+var __exports4 = {};
+__export(__exports4, {
+  css: () => css7,
+  entry: () => entry4,
+  js: () => js4,
+  module: () => Newmint_svelte_exports
+});
+var entry4, js4, css7;
+var init__4 = __esm({
+  ".svelte-kit/output/server/nodes/3.js"() {
+    init_Newmint_svelte();
+    entry4 = "pages/Newmint.svelte-0a86aead.js";
+    js4 = ["pages/Newmint.svelte-0a86aead.js", "chunks/vendor-1fe14be1.js", "chunks/header-7f52e067.js"];
+    css7 = ["assets/pages/Newmint.svelte-6b320777.css", "assets/header-587b2019.css"];
+  }
+});
+
 // .svelte-kit/output/server/entries/pages/mintOld.svelte.js
 var mintOld_svelte_exports = {};
 __export(mintOld_svelte_exports, {
   default: () => MintOld
 });
-var css6, MintOld;
+var css8, MintOld;
 var init_mintOld_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/mintOld.svelte.js"() {
     init_index_1e54ea6c();
     init_header_bcb0d97d();
-    css6 = {
+    css8 = {
       code: '.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{font-family:"VT323",monospace}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/background.png);background-position:center}.container.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{min-width:370px}.head.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-top:-50px}h1.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{color:white;font-size:50px;font-weight:100;animation:neon 3s infinite;margin-top:150px;text-align:center}.nft.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{text-align:center}.nft.svelte-zcaetq img.svelte-zcaetq.svelte-zcaetq{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{padding-top:150px;display:flex;flex-direction:column;justify-content:center;align-items:center}.welcome.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{border:4px solid #000;border-radius:20px;margin-top:1rem;margin-left:10pt;margin-right:10pt;background-color:#000;padding:5%;display:flex;flex-direction:column;justify-content:center}.welcome.svelte-zcaetq h3.svelte-zcaetq.svelte-zcaetq{text-align:center;display:block;font-size:2em ;font-weight:bold;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;letter-spacing:0.025em}ul.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{list-style:none}li.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-bottom:1rem;font-size:1.4rem;font-weight:300;letter-spacing:00.025em}.two-btns.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.two-btns.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{height:4rem}.docs-btn.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.docs-btn.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{height:4rem}.right-row.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:40%;margin-bottom:3rem}.btn.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-zcaetq a.svelte-zcaetq.svelte-zcaetq{display:block}.btn.svelte-zcaetq a.svelte-zcaetq img.svelte-zcaetq{width:100%}.mintContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;place-content:center;margin-top:10rem}.mintNFT.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;justify-content:center;align-self:center;text-align:center;width:21rem;height:20rem;padding-top:4rem;padding-bottom:5rem;background:#11468F;background-repeat:no-repeat;background-size:cover;background-position:center center;border:solid 2px white;border-radius:30px}.mintNFT.svelte-zcaetq h1.svelte-zcaetq.svelte-zcaetq{margin-top:0px;margin-bottom:5rem;display:block;font-size:2em;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.information.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-left:13%;margin-right:13% ;margin-bottom:1%;text-align:center}.formContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{margin-top:0.5rem}form.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:block;margin-top:0em }.quantityContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:row;justify-content:space-between;margin-left:15%;margin-right:15%;padding-bottom:0.5rem}label.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{cursor:default}#quantityText.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{text-align:center;width:3ch;font-family:craft;font-size:1.2rem;background-color:rgb(243, 226, 170);border-radius:5px;border:1px solid black}.quantitySlider.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{width:70%}.totalContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:row;-webkit-box-pack:justify;justify-content:space-between;margin-left:15%;margin-right:15%;margin-bottom:5%}.mintButtonContainer.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{display:flex;flex-direction:column;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%}.mintButtonImg.svelte-zcaetq.svelte-zcaetq.svelte-zcaetq{max-width:60%}',
       map: null
     };
     MintOld = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let price = 0;
-      $$result.css.add(css6);
+      $$result.css.add(css8);
       return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
     <div class="${"container svelte-zcaetq"}"><h1 class="${"svelte-zcaetq"}">Pre-Sale Mint is Live!</h1>
         <div class="${"nft svelte-zcaetq"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-zcaetq"}"></div>
@@ -5763,21 +5821,21 @@ var init_mintOld_svelte = __esm({
   }
 });
 
-// .svelte-kit/output/server/nodes/3.js
-var __exports4 = {};
-__export(__exports4, {
-  css: () => css7,
-  entry: () => entry4,
-  js: () => js4,
+// .svelte-kit/output/server/nodes/4.js
+var __exports5 = {};
+__export(__exports5, {
+  css: () => css9,
+  entry: () => entry5,
+  js: () => js5,
   module: () => mintOld_svelte_exports
 });
-var entry4, js4, css7;
-var init__4 = __esm({
-  ".svelte-kit/output/server/nodes/3.js"() {
+var entry5, js5, css9;
+var init__5 = __esm({
+  ".svelte-kit/output/server/nodes/4.js"() {
     init_mintOld_svelte();
-    entry4 = "pages/mintOld.svelte-77aaed93.js";
-    js4 = ["pages/mintOld.svelte-77aaed93.js", "chunks/vendor-1fe14be1.js", "chunks/header-7f52e067.js"];
-    css7 = ["assets/pages/mintOld.svelte-a575e9d4.css", "assets/header-587b2019.css"];
+    entry5 = "pages/mintOld.svelte-77aaed93.js";
+    js5 = ["pages/mintOld.svelte-77aaed93.js", "chunks/vendor-1fe14be1.js", "chunks/header-7f52e067.js"];
+    css9 = ["assets/pages/mintOld.svelte-a575e9d4.css", "assets/header-587b2019.css"];
   }
 });
 
@@ -5786,72 +5844,72 @@ var mint_svelte_exports = {};
 __export(mint_svelte_exports, {
   default: () => Mint
 });
-var css8, Mint;
+var css10, Mint;
 var init_mint_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/mint.svelte.js"() {
     init_index_1e54ea6c();
     init_header_bcb0d97d();
-    css8 = {
-      code: '.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{font-family:"VT323",monospace;color:#fff}:root{--shadow-color:#FF9E9E;--shadow-color-light:white}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);background-position:center}.container.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{min-width:370px}.head.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-bottom:50px;gap:150px;margin-top:-50px}.container.svelte-cdru5d .bigTitle.svelte-cdru5d.svelte-cdru5d{margin-top:150px;color:white;font-size:50px;font-weight:100;animation:svelte-cdru5d-neon 3s infinite;text-align:center}.nft.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{text-align:center}.nft.svelte-cdru5d img.svelte-cdru5d.svelte-cdru5d{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:column;justify-content:center;align-items:center}.welcome.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{border:4px solid #000;border-radius:20px;margin-top:1rem;margin-left:auto;margin-right:auto;background-color:#000;padding:25px;display:flex;flex-direction:column;justify-content:center;width:fit-content}.welcome.svelte-cdru5d h3.svelte-cdru5d.svelte-cdru5d{text-align:center;display:block;font-size:2em ;font-weight:bold;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;letter-spacing:0.025em}ul.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{list-style:none;text-align:center}li.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{margin-bottom:1rem;font-size:1.4rem;font-weight:300;letter-spacing:00.025em}.two-btns.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.two-btns.svelte-cdru5d a.svelte-cdru5d img.svelte-cdru5d{height:4rem}.docs-btn.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap;padding-bottom:100px}.docs-btn.svelte-cdru5d a.svelte-cdru5d img.svelte-cdru5d{height:4rem}.right-row.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;margin-bottom:3rem}.btn.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-cdru5d a.svelte-cdru5d.svelte-cdru5d{display:block}.btn.svelte-cdru5d a.svelte-cdru5d img.svelte-cdru5d{width:100%}.mintContainer.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;place-content:center;margin-top:10rem}.mintNFT.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:column;justify-content:center;align-self:center;text-align:center;width:21rem;height:20rem;padding-top:4rem;padding-bottom:5rem;background:#11468F;background-repeat:no-repeat;background-size:cover;background-position:center center;border:solid 2px white;border-radius:30px}.mintNFT.svelte-cdru5d h1.svelte-cdru5d.svelte-cdru5d{margin-top:0px;margin-bottom:5rem;display:block;font-size:2em;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.information.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{margin-left:13%;margin-right:13% ;margin-bottom:1%;text-align:center}.formContainer.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{margin-top:0.5rem}form.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:block;margin-top:0em }.quantityContainer.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:row;justify-content:space-between;margin-left:15%;margin-right:15%;padding-bottom:0.5rem}label.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{cursor:default}#quantityText.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{text-align:center;width:3ch;font-family:craft;font-size:1.2rem;background-color:rgb(243, 226, 170);border-radius:5px;border:1px solid black}.quantitySlider.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{width:70%}.totalContainer.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:row;-webkit-box-pack:justify;justify-content:space-between;margin-left:15%;margin-right:15%;margin-bottom:5%}.mintButtonContainer.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{display:flex;flex-direction:column;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%}.mintButtonImg.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{max-width:60%}.icons.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{visibility:hidden}.icons.svelte-cdru5d a.svelte-cdru5d img.svelte-cdru5d{width:50px;height:auto;margin-top:24px}@media only screen and (max-width:1023px){.left-row.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{padding-top:50px}.head.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{flex-flow:column wrap;gap:0}.right-row.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{margin-left:auto;margin-right:auto}.right-row.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{order:-1}.btn.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{width:200px}@media only screen and (max-width:619px){.icons.svelte-cdru5d.svelte-cdru5d.svelte-cdru5d{visibility:visible}}}@keyframes svelte-cdru5d-neon{0%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}50%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),\n      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color)}100%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}}',
+    css10 = {
+      code: '.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{font-family:"VT323",monospace;color:#fff}:root{--shadow-color:#FF9E9E;--shadow-color-light:white}body{width:100%;height:100%;background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);background-position:center}.container.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{min-width:370px}.head.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-flow:row wrap;justify-content:center;width:100%;color:#fff;margin-bottom:50px;gap:150px;margin-top:-50px}.container.svelte-1tvj23l .bigTitle.svelte-1tvj23l.svelte-1tvj23l{margin-top:150px;color:white;font-size:50px;font-weight:100;animation:svelte-1tvj23l-neon 3s infinite;text-align:center}.nft.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{text-align:center}.nft.svelte-1tvj23l img.svelte-1tvj23l.svelte-1tvj23l{width:350px;height:350px;border-radius:30px;border:solid 4px blueviolet}.left-row.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:column;justify-content:center;align-items:center}.welcome.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{border:4px solid #000;border-radius:20px;margin-top:1rem;margin-left:auto;margin-right:auto;background-color:#000;padding:25px;display:flex;flex-direction:column;justify-content:center;width:fit-content}.welcome.svelte-1tvj23l h3.svelte-1tvj23l.svelte-1tvj23l{text-align:center;display:block;font-size:2em ;font-weight:bold;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;letter-spacing:0.025em}ul.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{list-style:none;text-align:center}li.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{margin-bottom:1rem;font-size:1.4rem;font-weight:300;letter-spacing:00.025em}.two-btns.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap}.two-btns.svelte-1tvj23l a.svelte-1tvj23l img.svelte-1tvj23l{height:4rem}.docs-btn.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;justify-content:center;margin-top:2rem;max-width:100vw;gap:1rem;flex-wrap:wrap;padding-bottom:100px}.docs-btn.svelte-1tvj23l a.svelte-1tvj23l img.svelte-1tvj23l{height:4rem}.right-row.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;margin-bottom:3rem}.btn.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{position:absolute;top:24px;right:30px;width:230px}.btn.svelte-1tvj23l a.svelte-1tvj23l.svelte-1tvj23l{display:block}.btn.svelte-1tvj23l a.svelte-1tvj23l img.svelte-1tvj23l{width:100%}.mintContainer.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;place-content:center;margin-top:10rem}.mintNFT.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:column;justify-content:center;align-self:center;text-align:center;width:21rem;height:20rem;padding-top:4rem;padding-bottom:5rem;background:#11468F;background-repeat:no-repeat;background-size:cover;background-position:center center;border:solid 2px white;border-radius:30px}.mintNFT.svelte-1tvj23l h1.svelte-1tvj23l.svelte-1tvj23l{margin-top:0px;margin-bottom:5rem;display:block;font-size:2em;margin-block-start:0.67em;margin-block-end:0.67em;margin-inline-start:0px;margin-inline-end:0px;font-weight:bold}.information.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{margin-left:13%;margin-right:13% ;margin-bottom:1%;text-align:center}.formContainer.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{margin-top:0.5rem}form.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:block;margin-top:0em }.quantityContainer.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:row;justify-content:space-between;margin-left:15%;margin-right:15%;padding-bottom:0.5rem}label.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{cursor:default}#quantityText.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{text-align:center;width:3ch;font-family:craft;font-size:1.2rem;background-color:rgb(243, 226, 170);border-radius:5px;border:1px solid black}.quantitySlider.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{width:70%}.totalContainer.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:row;-webkit-box-pack:justify;justify-content:space-between;margin-left:15%;margin-right:15%;margin-bottom:5%}.mintButtonContainer.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{display:flex;flex-direction:column;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center;width:100%}.mintButtonImg.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{max-width:60%}.icons.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{visibility:hidden}.icons.svelte-1tvj23l a.svelte-1tvj23l img.svelte-1tvj23l{width:50px;height:auto;margin-top:24px}@media only screen and (max-width:1023px){.left-row.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{padding-top:50px}.head.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{flex-flow:column wrap;gap:0}.right-row.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{margin-left:auto;margin-right:auto}.right-row.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{order:-1}.btn.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{width:200px}@media only screen and (max-width:619px){.icons.svelte-1tvj23l.svelte-1tvj23l.svelte-1tvj23l{visibility:visible}}}@keyframes svelte-1tvj23l-neon{0%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}50%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),\n      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color)}100%{text-shadow:-1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),\n      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),\n      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color)}}',
       map: null
     };
     Mint = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let price = 0;
-      $$result.css.add(css8);
+      $$result.css.add(css10);
       return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
-    <div class="${"container svelte-cdru5d"}"><h1 class="${"bigTitle svelte-cdru5d"}">Pre-Sale Mint is Live!</h1>
-        <div class="${"head svelte-cdru5d"}"><div class="${"left-row svelte-cdru5d"}"><div class="${"nft svelte-cdru5d"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-cdru5d"}"></div></div>
+    <div class="${"container svelte-1tvj23l"}"><h1 class="${"bigTitle svelte-1tvj23l"}">Pre-Sale Mint is Live!</h1>
+        <div class="${"head svelte-1tvj23l"}"><div class="${"left-row svelte-1tvj23l"}"><div class="${"nft svelte-1tvj23l"}"><img src="${"img/nft.gif"}" alt="${""}" class="${"svelte-1tvj23l"}"></div></div>
     
-            <div class="${"right-row svelte-cdru5d"}"><div class="${"btn svelte-cdru5d"}"><a href="${"#"}" class="${"svelte-cdru5d"}"><img src="${"img/connect-wallet-button.png"}" alt="${""}" class="${"svelte-cdru5d"}"></a></div>
-                <div class="${"mintContainer svelte-cdru5d"}"><div class="${"mintNFT svelte-cdru5d"}"><h1 class="${"svelte-cdru5d"}">Mint Villagers</h1>
-                        <div class="${"information svelte-cdru5d"}"><span style="${"font-size: 14pt;"}" class="${"svelte-cdru5d"}">Gen 0: 10000 / 10000</span><br class="${"svelte-cdru5d"}">
-                            <span style="${"font-size: 14pt;"}" class="${"svelte-cdru5d"}">Gen 1: ????? / 10000</span><br class="${"svelte-cdru5d"}"><br class="${"svelte-cdru5d"}">
-                            Minting Villagers Now Requires $ELIXIR<br class="${"svelte-cdru5d"}"><br class="${"svelte-cdru5d"}">
+            <div class="${"right-row svelte-1tvj23l"}"><div class="${"btn svelte-1tvj23l"}"><a href="${"#"}" class="${"svelte-1tvj23l"}"><img src="${"img/connect-wallet-button.png"}" alt="${""}" class="${"svelte-1tvj23l"}"></a></div>
+                <div class="${"mintContainer svelte-1tvj23l"}"><div class="${"mintNFT svelte-1tvj23l"}"><h1 class="${"svelte-1tvj23l"}">Mint Villagers</h1>
+                        <div class="${"information svelte-1tvj23l"}"><span style="${"font-size: 14pt;"}" class="${"svelte-1tvj23l"}">Gen 0: 10000 / 10000</span><br class="${"svelte-1tvj23l"}">
+                            <span style="${"font-size: 14pt;"}" class="${"svelte-1tvj23l"}">Gen 1: ????? / 10000</span><br class="${"svelte-1tvj23l"}"><br class="${"svelte-1tvj23l"}">
+                            Minting Villagers Now Requires $ELIXIR<br class="${"svelte-1tvj23l"}"><br class="${"svelte-1tvj23l"}">
                             You can mint up to 10 Villagers in each transaction.
                         </div>
 
-                        <div class="${"formContainer svelte-cdru5d"}"><form class="${"svelte-cdru5d"}"><div class="${"quantityContainer svelte-cdru5d"}"><label for="${"quantityText"}" class="${"quantity svelte-cdru5d"}">Quantity:
+                        <div class="${"formContainer svelte-1tvj23l"}"><form class="${"svelte-1tvj23l"}"><div class="${"quantityContainer svelte-1tvj23l"}"><label for="${"quantityText"}" class="${"quantity svelte-1tvj23l"}">Quantity:
                                     </label>
-                                    <input id="${"quantityText"}" type="${"text"}" class="${"svelte-cdru5d"}"${add_attribute("value", price, 0)}></div>
-                                <div class="${"svelte-cdru5d"}"><label class="${"svelte-cdru5d"}"><input id="${"quantity"}" type="${"range"}" class="${"quantitySlider svelte-cdru5d"}" min="${"0"}" max="${"10"}"${add_attribute("value", price, 0)}></label></div>
-                                    <div class="${"totalContainer svelte-cdru5d"}"><span class="${"svelte-cdru5d"}">Total:</span>
-                                        <span class="${"AVAX svelte-cdru5d"}">${escape(price)} $ELIXIR</span></div>
-                                    <div class="${"mintButtonContainer svelte-cdru5d"}"><input type="${"image"}" class="${"mintButtonImg svelte-cdru5d"}" name="${"submit"}" alt="${"Submit Form"}" src="${"img/mint_unactive_cropped.63f4d78c25b22e39b045.webp"}"></div></form></div></div></div>
-                <div class="${"icons svelte-cdru5d"}"><a class="${"twitter svelte-cdru5d"}" href="${"https://twitter.com/villagesfi"}" target="${"_blank"}"><img src="${"img/twitter.png"}" class="${"svelte-cdru5d"}"></a>
-                    <a class="${"discord svelte-cdru5d"}" href="${"https://discord.gg/villages"}" target="${"_blank"}"><img src="${"img/discord.png"}" class="${"svelte-cdru5d"}"></a>
-                    <a class="${"telegram svelte-cdru5d"}" href="${"https://t.me/villagesfi"}" target="${"_blank"}"><img src="${"img/telegram.png"}" class="${"svelte-cdru5d"}"></a>
-                    <a class="${"medium svelte-cdru5d"}" href="${"https://medium.com/@villagesfi"}" target="${"_blank"}"><img src="${"img/medium.png"}" class="${"svelte-cdru5d"}"></a></div></div></div>
+                                    <input id="${"quantityText"}" type="${"text"}" class="${"svelte-1tvj23l"}"${add_attribute("value", price, 0)}></div>
+                                <div class="${"svelte-1tvj23l"}"><label class="${"svelte-1tvj23l"}"><input id="${"quantity"}" type="${"range"}" class="${"quantitySlider svelte-1tvj23l"}" min="${"0"}" max="${"10"}"${add_attribute("value", price, 0)}></label></div>
+                                    <div class="${"totalContainer svelte-1tvj23l"}"><span class="${"svelte-1tvj23l"}">Total:</span>
+                                        <span class="${"AVAX svelte-1tvj23l"}">${escape(price)} $ELIXIR</span></div>
+                                    <div class="${"mintButtonContainer svelte-1tvj23l"}"><input type="${"image"}" class="${"mintButtonImg svelte-1tvj23l"}" name="${"submit"}" alt="${"Submit Form"}" src="${"img/mint_unactive_cropped.63f4d78c25b22e39b045.webp"}"></div></form></div></div></div>
+                <div class="${"icons svelte-1tvj23l"}"><a class="${"twitter svelte-1tvj23l"}" href="${"https://twitter.com/villagesfi"}" target="${"_blank"}"><img src="${"img/twitter.png"}" class="${"svelte-1tvj23l"}"></a>
+                    <a class="${"discord svelte-1tvj23l"}" href="${"https://discord.gg/villages"}" target="${"_blank"}"><img src="${"img/discord.png"}" class="${"svelte-1tvj23l"}"></a>
+                    <a class="${"telegram svelte-1tvj23l"}" href="${"https://t.me/villagesfi"}" target="${"_blank"}"><img src="${"img/telegram.png"}" class="${"svelte-1tvj23l"}"></a>
+                    <a class="${"medium svelte-1tvj23l"}" href="${"https://medium.com/@villagesfi"}" target="${"_blank"}"><img src="${"img/medium.png"}" class="${"svelte-1tvj23l"}"></a></div></div></div>
             
-        <div class="${"welcome svelte-cdru5d"}"><h3 style="${"margin-top: 1rem;"}" class="${"svelte-cdru5d"}">Welcome to VillagersFi!</h3>
-            <ul class="${"svelte-cdru5d"}"><li class="${"svelte-cdru5d"}">\u2694\uFE0F 10,000 Gen1 Villagers minted with $GOLD</li>
-                <li class="${"svelte-cdru5d"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
-                <li class="${"svelte-cdru5d"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
-                <li class="${"svelte-cdru5d"}">\u2694\uFE0F Stake up to 10 villagers at once in a level 1 village</li></ul></div>
+        <div class="${"welcome svelte-1tvj23l"}"><h3 style="${"margin-top: 1rem;"}" class="${"svelte-1tvj23l"}">Welcome to VillagersFi!</h3>
+            <ul class="${"svelte-1tvj23l"}"><li class="${"svelte-1tvj23l"}">\u2694\uFE0F 10,000 Gen1 Villagers minted with $GOLD</li>
+                <li class="${"svelte-1tvj23l"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                <li class="${"svelte-1tvj23l"}">\u2694\uFE0F 5% Chance to Mint a special villager</li>
+                <li class="${"svelte-1tvj23l"}">\u2694\uFE0F Stake up to 10 villagers at once in a level 1 village</li></ul></div>
 
-        <div class="${"two-btns svelte-cdru5d"}"><a href="${"#"}" class="${"svelte-cdru5d"}"><img src="${"img/villagesfi-button.png"}" alt="${""}" class="${"svelte-cdru5d"}"></a>
-            <a href="${"http://whitepaper.villages.finance/"}" class="${"svelte-cdru5d"}"><img src="${"img/whitepaper-button.png"}" alt="${""}" class="${"svelte-cdru5d"}"></a></div>
-        <div class="${"docs-btn svelte-cdru5d"}"><a href="${"https://medium.com/@villagesfi"}" class="${"svelte-cdru5d"}"><img src="${"img/docs-button.png"}" alt="${""}" class="${"svelte-cdru5d"}"></a></div>
+        <div class="${"two-btns svelte-1tvj23l"}"><a href="${"#"}" class="${"svelte-1tvj23l"}"><img src="${"img/villagesfi-button.png"}" alt="${""}" class="${"svelte-1tvj23l"}"></a>
+            <a href="${"http://whitepaper.villages.finance/"}" class="${"svelte-1tvj23l"}"><img src="${"img/whitepaper-button.png"}" alt="${""}" class="${"svelte-1tvj23l"}"></a></div>
+        <div class="${"docs-btn svelte-1tvj23l"}"><a href="${"https://medium.com/@villagesfi"}" class="${"svelte-1tvj23l"}"><img src="${"img/docs-button.png"}" alt="${""}" class="${"svelte-1tvj23l"}"></a></div>
 
     </div>`;
     });
   }
 });
 
-// .svelte-kit/output/server/nodes/4.js
-var __exports5 = {};
-__export(__exports5, {
-  css: () => css9,
-  entry: () => entry5,
-  js: () => js5,
+// .svelte-kit/output/server/nodes/5.js
+var __exports6 = {};
+__export(__exports6, {
+  css: () => css11,
+  entry: () => entry6,
+  js: () => js6,
   module: () => mint_svelte_exports
 });
-var entry5, js5, css9;
-var init__5 = __esm({
-  ".svelte-kit/output/server/nodes/4.js"() {
+var entry6, js6, css11;
+var init__6 = __esm({
+  ".svelte-kit/output/server/nodes/5.js"() {
     init_mint_svelte();
-    entry5 = "pages/mint.svelte-5d62b787.js";
-    js5 = ["pages/mint.svelte-5d62b787.js", "chunks/vendor-1fe14be1.js", "chunks/header-7f52e067.js"];
-    css9 = ["assets/pages/mint.svelte-0c1cc4ac.css", "assets/header-587b2019.css"];
+    entry6 = "pages/mint.svelte-fcc96016.js";
+    js6 = ["pages/mint.svelte-fcc96016.js", "chunks/vendor-1fe14be1.js", "chunks/header-7f52e067.js"];
+    css11 = ["assets/pages/mint.svelte-280e6cfc.css", "assets/header-587b2019.css"];
   }
 });
 
@@ -6191,12 +6249,12 @@ function devalue(value) {
   }
   walk(value);
   var names = /* @__PURE__ */ new Map();
-  Array.from(counts).filter(function(entry6) {
-    return entry6[1] > 1;
+  Array.from(counts).filter(function(entry7) {
+    return entry7[1] > 1;
   }).sort(function(a, b) {
     return b[1] - a[1];
-  }).forEach(function(entry6, i2) {
-    names.set(entry6[0], getName(i2));
+  }).forEach(function(entry7, i2) {
+    names.set(entry7[0], getName(i2));
   });
   function stringify(thing) {
     if (names.has(thing)) {
@@ -7930,16 +7988,17 @@ var Server = class {
 // .svelte-kit/vercel-tmp/manifest.js
 var manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["favicon.png", "img/academy.png", "img/background.png", "img/cannon-1.png", "img/cannon-2-upgrade.png", "img/cannon-2.png", "img/cannon-3-upgrade.png", "img/cannon-3.png", "img/connect-wallet-button.png", "img/discord.png", "img/docs-button.png", "img/elexir-extractor-1.png", "img/elexir-extractor-2-upgrade.png", "img/elexir-extractor-2.png", "img/elexir-extractor-3-upgrade.png", "img/elexir-extractor-3.png", "img/favicon.svg", "img/gold-mine.png", "img/golden-shoes-upgrade.png", "img/logo.png", "img/medium.png", "img/mint_unactive_cropped.63f4d78c25b22e39b045.webp", "img/mintbg.svg", "img/mintbgNew.svg", "img/nft.gif", "img/paper-bottom.png", "img/paper-middle.png", "img/paper-money-upgrade.png", "img/paper-top.png", "img/plexiglass-upgrade.png", "img/screenshot.png", "img/telegram.png", "img/tower-1.png", "img/tower-2-upgrade.png", "img/tower-2.png", "img/tower-3-upgrade.png", "img/tower-3.png", "img/townhall-1.png", "img/townhall-2-upgrade.png", "img/townhall-2.png", "img/townhall-3-upgrade.png", "img/townhall-3.png", "img/twitter.png", "img/villagesfi-background.jpg", "img/villagesfi-background.png", "img/villagesfi-button.png", "img/whitepaper-button.png"]),
+  assets: /* @__PURE__ */ new Set(["favicon.png", "img/academy.png", "img/background.png", "img/cannon-1.png", "img/cannon-2-upgrade.png", "img/cannon-2.png", "img/cannon-3-upgrade.png", "img/cannon-3.png", "img/connect-wallet-button.png", "img/discord.png", "img/docs-button.png", "img/elexir-extractor-1.png", "img/elexir-extractor-2-upgrade.png", "img/elexir-extractor-2.png", "img/elexir-extractor-3-upgrade.png", "img/elexir-extractor-3.png", "img/favicon.svg", "img/gold-mine.png", "img/golden-shoes-upgrade.png", "img/logo.png", "img/medium.png", "img/mint.png", "img/mint_unactive_cropped.63f4d78c25b22e39b045.webp", "img/mintbg.svg", "img/mintbgNew.svg", "img/nft.gif", "img/paper-bottom.png", "img/paper-middle.png", "img/paper-money-upgrade.png", "img/paper-top.png", "img/plexiglass-upgrade.png", "img/screenshot.png", "img/telegram.png", "img/tower-1.png", "img/tower-2-upgrade.png", "img/tower-2.png", "img/tower-3-upgrade.png", "img/tower-3.png", "img/townhall-1.png", "img/townhall-2-upgrade.png", "img/townhall-2.png", "img/townhall-3-upgrade.png", "img/townhall-3.png", "img/twitter.png", "img/villagesfi-background.jpg", "img/villagesfi-background.png", "img/villagesfi-button.png", "img/whitepaper-button.png"]),
   mimeTypes: { ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".gif": "image/gif", ".jpg": "image/jpeg" },
   _: {
-    entry: { "file": "start-0d002c7e.js", "js": ["start-0d002c7e.js", "chunks/vendor-1fe14be1.js"], "css": [] },
+    entry: { "file": "start-161f3778.js", "js": ["start-161f3778.js", "chunks/vendor-1fe14be1.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
       () => Promise.resolve().then(() => (init__3(), __exports3)),
       () => Promise.resolve().then(() => (init__4(), __exports4)),
-      () => Promise.resolve().then(() => (init__5(), __exports5))
+      () => Promise.resolve().then(() => (init__5(), __exports5)),
+      () => Promise.resolve().then(() => (init__6(), __exports6))
     ],
     routes: [
       {
@@ -7955,13 +8014,24 @@ var manifest = {
       },
       {
         type: "page",
+        id: "Newmint",
+        pattern: /^\/Newmint\/?$/,
+        names: [],
+        types: [],
+        path: "/Newmint",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
         id: "mintOld",
         pattern: /^\/mintOld\/?$/,
         names: [],
         types: [],
         path: "/mintOld",
         shadow: null,
-        a: [0, 3],
+        a: [0, 4],
         b: [1]
       },
       {
@@ -7972,7 +8042,7 @@ var manifest = {
         types: [],
         path: "/mint",
         shadow: null,
-        a: [0, 4],
+        a: [0, 5],
         b: [1]
       }
     ],

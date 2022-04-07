@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-0d002c7e.js",
+    "file": "start-161f3778.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -10,6 +10,7 @@
       ".svelte-kit/runtime/components/layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
+      "src/routes/Newmint.svelte",
       "src/routes/mintOld.svelte",
       "src/routes/mint.svelte"
     ]
@@ -44,6 +45,19 @@
       "assets/pages/index.svelte-f16b1722.css"
     ]
   },
+  "src/routes/Newmint.svelte": {
+    "file": "pages/Newmint.svelte-0a86aead.js",
+    "src": "src/routes/Newmint.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-1fe14be1.js",
+      "_header-7f52e067.js"
+    ],
+    "css": [
+      "assets/pages/Newmint.svelte-6b320777.css"
+    ]
+  },
   "src/routes/mintOld.svelte": {
     "file": "pages/mintOld.svelte-77aaed93.js",
     "src": "src/routes/mintOld.svelte",
@@ -58,7 +72,7 @@
     ]
   },
   "src/routes/mint.svelte": {
-    "file": "pages/mint.svelte-5d62b787.js",
+    "file": "pages/mint.svelte-fcc96016.js",
     "src": "src/routes/mint.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -67,7 +81,7 @@
       "_header-7f52e067.js"
     ],
     "css": [
-      "assets/pages/mint.svelte-0c1cc4ac.css"
+      "assets/pages/mint.svelte-280e6cfc.css"
     ]
   },
   "_vendor-1fe14be1.js": {
