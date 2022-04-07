@@ -41,5 +41,12 @@ You can preview the production build with `npm run preview`.
 
 
 ## Screenshot
-![Screenshot](https://raw.githubusercontent.com/demiaiahmed/VillagersFi/master/static/img/screenshot.png) 
+Website V 0.1
+![Screenshot](https://raw.githubusercontent.com/demiaiahmed/VillagersFi/master/static/img/screenshot.png)
+
+Mint Page Newer Version
+![Screenshot](https://i.imgur.com/RZhHUmG.png)
+
+
+
 
