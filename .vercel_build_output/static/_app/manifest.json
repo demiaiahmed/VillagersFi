@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-161f3778.js",
+    "file": "start-97a1e4f7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -46,39 +46,39 @@
     ]
   },
   "src/routes/Newmint.svelte": {
-    "file": "pages/Newmint.svelte-0a86aead.js",
+    "file": "pages/Newmint.svelte-598dc81b.js",
     "src": "src/routes/Newmint.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1fe14be1.js",
-      "_header-7f52e067.js"
+      "_header-93c38edf.js"
     ],
     "css": [
-      "assets/pages/Newmint.svelte-6b320777.css"
+      "assets/pages/Newmint.svelte-ef88be7a.css"
     ]
   },
   "src/routes/mintOld.svelte": {
-    "file": "pages/mintOld.svelte-77aaed93.js",
+    "file": "pages/mintOld.svelte-77bb6d28.js",
     "src": "src/routes/mintOld.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1fe14be1.js",
-      "_header-7f52e067.js"
+      "_header-93c38edf.js"
     ],
     "css": [
       "assets/pages/mintOld.svelte-a575e9d4.css"
     ]
   },
   "src/routes/mint.svelte": {
-    "file": "pages/mint.svelte-fcc96016.js",
+    "file": "pages/mint.svelte-4b5af64d.js",
     "src": "src/routes/mint.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-1fe14be1.js",
-      "_header-7f52e067.js"
+      "_header-93c38edf.js"
     ],
     "css": [
       "assets/pages/mint.svelte-280e6cfc.css"
@@ -87,13 +87,13 @@
   "_vendor-1fe14be1.js": {
     "file": "chunks/vendor-1fe14be1.js"
   },
-  "_header-7f52e067.js": {
-    "file": "chunks/header-7f52e067.js",
+  "_header-93c38edf.js": {
+    "file": "chunks/header-93c38edf.js",
     "imports": [
       "_vendor-1fe14be1.js"
     ],
     "css": [
-      "assets/header-587b2019.css"
+      "assets/header-5c924cec.css"
     ]
   }
 }

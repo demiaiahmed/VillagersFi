@@ -1,4 +1,3 @@
-
 <script>
     import Header from "../components/header.svelte"
     let price=0;
@@ -19,26 +18,26 @@
             </div>
     
             <div class="right-row">
-                <div class="btn">
+                <!--<div class="btn">
                     <a href="#">
                         <img src="img/connect-wallet-button.png" alt="" on:click={alertMsg}>
                     </a>
-                </div>
+                </div>-->
                 <div class="mintContainer">
                     <div class="mintNFT">
                         <h1>SEED ROUND MINT</h1>
                         <p>⚔️ 95 Exclusive villagers with tools for sale</p>
-					<p>⚔️ Mint 10 villagers to be eligible for a free villager drop</p>
-					<p>⚔️ Each Villager will produce $ESSENCE at 5% Daily ROI</p>
-					<p>Quantity:</p>
-					<div class="slidebox">
-						<div class="slider">
-							<input class="slide" type="range" min="1" max="10" value="1">
-						</div>
-					</div>
-					<div class="boxed">
-						<a href="whitepaper.html"><img src="img/mint.png"></a>
-					</div>
+					    <p>⚔️ Mint 10 villagers to be eligible for a free villager drop</p>
+					    <p>⚔️ Each Villager will produce $ESSENCE at 5% Daily ROI</p>
+					    <p>Quantity:</p>
+					    <div class="slidebox">
+						    <div class="slider">
+						    	<input class="slide" type="range" min="1" max="10" value="1">
+						    </div>
+				    	</div>
+					    <div class="boxed">
+					    	<a href="whitepaper.html"><img src="img/mint.png"></a>
+				    	</div>
                     </div>
                 </div>
                 <div class="icons">
@@ -60,9 +59,11 @@
 
 <style>
 *{
-
+margin: 0;
+padding: 0;
 font-family: "VT323",monospace;
 color: #fff;
+
 
 }
 :root {
@@ -74,6 +75,7 @@ width: 100%;
 height: 100%;
 background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);
 background-position: center;
+
 
 }
 .container{
