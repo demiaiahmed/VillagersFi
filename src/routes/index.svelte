@@ -1,110 +1,85 @@
 <script>
+    import Header from "../components/header.svelte"
     let price=0;
-    function alertMsg(){
-        alert("Coming Soon Villager");
-    }
+    
 </script>
-
+    <Header />
     <div class="container">
+        
+        <h1 class="bigTitle">SEED ROUND IS NOW LIVE</h1>
         <div class="head">
             <div class="left-row">
-                <img src="img/logo.png" class="logo" alt="">
                 
-                <div class="welcome">
-                    <h3 style="margin-top: 1rem;">Welcome to VillagersFi!</h3>
-                    <ul>
-                        <li>⚔️ 10,000 Gen1 Villagers minted with $GOLD</li>
-                        <li>⚔️ 5% Chance to Mint a special villager</li>
-                        <li>⚔️ 5% Chance to Mint a special villager</li>
-                        <li>⚔️ Stake up to 10 villagers at once in a level 1 village</li>
-                    </ul>
-    
-                </div>
-    
-                <div class="two-btns">
-                    <a href="#"><img src="img/villagesfi-button.png" alt="" on:click={alertMsg}></a>
-                    <a href="#"><img src="img/whitepaper-button.png" alt="" on:click={alertMsg}></a>
-                </div>
-                <div class="docs-btn">
-                    <a href="#">
-                        <img src="img/docs-button.png" alt="" on:click={alertMsg}>
-                    </a>
-                </div>
-                <div class="socials">
-                    <a href="https://discord.gg/n7eyFJBw" target="_blank"><img src="img/discord.png" alt=""></a>
-                    <a href="https://twitter.com" target="_blank"><img src="img/twitter.png" alt="" ></a>
+                <div class="nft">
+                    <img src="img/nft.gif" alt="">
                 </div>
             </div>
     
             <div class="right-row">
-                <div class="btn">
+                <!--<div class="btn">
                     <a href="#">
                         <img src="img/connect-wallet-button.png" alt="" on:click={alertMsg}>
                     </a>
-                </div>
+                </div>-->
                 <div class="mintContainer">
                     <div class="mintNFT">
-                        <h1>Mint Villagers</h1>
-                        <div class="information">
-                            <span style="font-size: 14pt;">Gen 0: 10000 / 10000</span><br>
-                            <span style="font-size: 14pt;">Gen 1: ????? / 10000</span><br><br>
-                            Minting Villagers Now Requires $ELIXIR<br><br>
-                            You can mint up to 10 Villagers in each transaction.
+                        <h1>SEED ROUND MINT</h1>
+                        <p>⚔️ 95 Exclusive villagers with tools for sale</p>
+					    <p>⚔️ Mint 10 villagers to be eligible for a free villager drop</p>
+					    <p>⚔️ Each Villager will produce $ESSENCE at 5% Daily ROI</p>
+					    <div class="quantityContainer">
+                            <label for="quantityText" class="quantity">
+                                Quantity:
+                            </label>
+                            <input id="quantityText" type="text" bind:value={price}>
                         </div>
-
-                        <div class="formContainer">
-                            <form>
-                                <div class="quantityContainer">
-                                    <label for="quantityText" class="quantity">
-                                        Quantity:
-                                    </label>
-                                    <input id="quantityText" type="text" bind:value={price}>
-                                </div>
-                                <div>
-                                    <label>
-                                        <input id="quantity" type="range" class="quantitySlider"  min="0" max="10" bind:value={price}></label>
-                                    </div>
-                                    <div class="totalContainer">
-                                        <span>Total:</span>
-                                        <span class="AVAX">{price} $ELIXIR</span>
-                                    </div>
-                                    <div class="mintButtonContainer">
-                                        <input type="image" class="mintButtonImg" name="submit" alt="Submit Form" src="img/mint_unactive_cropped.63f4d78c25b22e39b045.webp" on:click={alertMsg}>
-                                    </div>
-                                </form>
-                        </div>
+					    <div class="slidebox">
+						    <div>
+                                <label>
+                                    <input id="quantity" type="range" class="quantitySlider"  min="0" max="10" bind:value={price}></label>
+                            </div>
+				    	</div>
+					    <div class="boxed">
+					    	<a href="whitepaper.html"><img src="img/mint.png"></a>
+				    	</div>
                     </div>
                 </div>
-    
+                <div class="icons">
+                    <a class="twitter" href="https://twitter.com/villagesfi" target="_blank"><img src="img/twitter.png"></a>
+                    <a class="discord" href="https://discord.gg/villages" target="_blank"><img src="img/discord.png"></a>
+                    <a class="telegram" href="https://t.me/villagesfi" target="_blank"><img src="img/telegram.png"></a>
+                    <a class="medium" href="https://medium.com/@villagesfi" target="_blank"><img src="img/medium.png"></a>
+        
+                </div>
             </div>
         </div>
-        <div class="footer">
-            <span>Contracts:</span>
-            <div class="linkContainer">
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Villagers</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Tools</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Town Hall</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Tower</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Elixir Extractor</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Walls</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>Canons</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>ELIXIR</a>
-                <a href="#" target="_blank" rel="noreferrer" on:click={alertMsg}>GOLD</a>
-            </div>
-        </div>
+            
+        
+
     </div>
 
 
 
 
 <style>
-    *{
-
+*{
+margin: 0;
+padding: 0;
 font-family: "VT323",monospace;
+color: #fff;
+
 
 }
+:root {
+    --shadow-color: #FF9E9E;
+    --shadow-color-light: white;
+  }
 :global(body){
-background: url("/img/villagesfi-background.jpg");
+width: 100%;
+height: 100%;
+background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img/background.png);
+background-position: center;
+
 
 }
 .container{
@@ -116,9 +91,28 @@ display: flex;
 flex-flow: row wrap;
 justify-content: center;
 width: 100%;
-padding-top: 2rem;
-color: #000;
+color: #fff;
+margin-bottom: 50px;
+gap : 150px;
+margin-top: -50px;
+}
+.container .bigTitle{
+    margin-top: 150px;
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+	text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 20px #00C8FF, 0 0 30px #00C8FF, 0 0 40px #00C8FF;
 
+    text-align: center;
+}
+.nft{
+    text-align: center;
+}
+.nft img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    border: solid 4px blueviolet;
 }
 .left-row{
 display: flex;
@@ -126,22 +120,18 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-.logo{
-width: 14rem;
-border-radius: 50%;
-border: 3px solid white;
-}
 .welcome{
 border: 4px solid #000;
 border-radius: 20px;
 margin-top: 1rem;
-margin-left: 10pt;
-margin-right: 10pt;
-background-color: rgb(246, 231, 34);
-padding: 5%;
+margin-left: auto;
+margin-right: auto;
+background-color: #000;
+padding: 25px;
 display: flex;
 flex-direction: column;
 justify-content: center;
+width:fit-content;
 
 
 }
@@ -159,6 +149,7 @@ letter-spacing: 0.025em;
 }
 ul{
 list-style: none;
+text-align: center;
 }
 li{
 margin-bottom: 1rem;
@@ -184,74 +175,116 @@ margin-top: 2rem;
 max-width: 100vw;
 gap: 1rem;
 flex-wrap: wrap;
+padding-bottom: 100px;
 }
 .docs-btn a img{
 height: 4rem;
 }
-.socials{
-height: 4rem;
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin-top: 3rem;
-gap: 1rem;
-}
-.socials a img{
-display: block;
-height: 4rem;
-}
+
 
 .right-row{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: flex-start;
-width: 40%;
 margin-bottom: 3rem;
 }
 .btn{
-height: auto;
-display: flex;
-flex-direction: row-reverse;
-align-content: start;
-
-margin-top: 1rem;
+position:absolute;
+top: 24px;
+right: 30px;
+width: 230px;
 }
 .btn a{
 display: block;
 }
+.btn a img{
+    width: 100%;
+}
 .mintContainer{
-width: 100%;
 display: flex;
 place-content: center;
 margin-top: 10rem;
+width:440px;
 }
 .mintNFT{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-self: center;
-text-align: center;
-width: 21rem;
-height: 20rem;
-padding-top: 4rem;
-padding-bottom: 5rem;
-background-image: url("/img/mintbgNew.svg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+
+background-color: rgba(0, 0, 0, 0.2);
+padding: 35px;
+padding-bottom: 15px;
+padding-top: 30px;
+border-radius: 15px;
 }
 .mintNFT h1{
+text-align: center;
 margin-top: 0px;
 margin-bottom: 5rem;
 display: block;
-font-size: 2em;
+font-size: 40px;
 margin-block-start: 0.67em;
 margin-block-end: 0.67em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 font-weight: bold;
 
+}
+.mintNFT p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.slidebox{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.slider{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.slide{
+    width:360px;
+}
+.quantityContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 0;
+margin-right: 15%;
+padding-bottom: 0.5rem;
+
+}
+label{
+cursor: default;
+}
+#quantityText{
+text-align: center;
+color: #000;
+width: 3ch;
+font-family: craft;
+font-size: 1.2rem;
+background-color: rgb(243, 226, 170);
+border-radius: 5px;
+border: 1px solid black;
+}
+.quantitySlider {
+width: 70%;
+}
+.boxed{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.box img{
+    width: 170px;
+    height: auto;
 }
 .information{
 margin-left: 13%;
@@ -270,13 +303,14 @@ margin-top:0em ;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-left: 15%;
+margin-left: 0px;
 margin-right: 15%;
 padding-bottom: 0.5rem;
 
 }
 label{
 cursor: default;
+font-size: 20px;
 }
 #quantityText{
 text-align: center;
@@ -288,7 +322,7 @@ border-radius: 5px;
 border: 1px solid black;
 }
 .quantitySlider {
-width: 70%;
+width: 85%;
 }
 .totalContainer {
 display: flex;
@@ -311,31 +345,55 @@ width: 100%;
 .mintButtonImg {
 max-width: 60%;
 }
-.footer{
-min-width: 370px;
-padding-top: 20px;
-padding-bottom: 20px;
-display: flex;
-flex-direction: column;
--webkit-box-align: center;
-align-items: center;
--webkit-box-pack: center;
-justify-content: center;
-text-decoration: none;
-font-family: craft;
-color: white;
-font-size: 1.2em;
+.icons{
+    visibility: hidden;
 }
-.linkContainer {
-display: flex;
--webkit-box-pack: center;
-justify-content: center;
-flex-wrap: wrap;
-gap: 1rem;
-}
-.linkContainer a {
-color: white;
-cursor: pointer;
-}
+.icons a img{
+        width: 50px;
+    height: auto;
+    margin-top: 24px;
+    }
 
+@media only screen and (max-width:1023px){
+    .left-row{
+        padding-top: 50px;
+    }
+    .head{
+        flex-flow:column wrap;
+        gap:0;
+    }
+    .right-row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-row{
+        order:-1;
+    }
+    .btn{
+        width:200px;
+        
+    }
+    @media only screen and (max-width:619px) {
+        .icons{
+            visibility: visible;
+        }
+    }
+}
+@keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+  }
 </style>

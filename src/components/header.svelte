@@ -1,3 +1,9 @@
+<script>
+    function alertMsg(){
+        alert("Coming Soon Villager");
+    }
+</script>
+
 <div class="header">
     <a href="https://villages.finance"><h1 class="logo">VILLAGESFI</h1></a>
     <div class="icons">
